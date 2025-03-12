@@ -2,7 +2,10 @@ package main
 
 import "fmt"
 
-func Print(t any)
+func Print[T any](value T)T{
+	fmt.Println(value)
+	return value
+}
 
 func main() {
 	//peintstring("hello world")
