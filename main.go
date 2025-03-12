@@ -4,7 +4,7 @@ import "fmt"
 
 func main() {
 	peintstring("hello world")
-
+	printinteger(12)
 }
 func peintstring(s string) string {
 	fmt.Println(s)
@@ -13,6 +13,6 @@ func peintstring(s string) string {
 }
 
 func printinteger(i int) int {
-	fmt.Println(i)
+	fmt.Println(i + 100)
 	return i
 }
