@@ -11,3 +11,8 @@ func peintstring(s string) string {
 	return s
 
 }
+
+func printinteger(i int) int {
+	fmt.Println(i)
+	return i
+}
